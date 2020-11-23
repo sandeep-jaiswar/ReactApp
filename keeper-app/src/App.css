@@ -33,16 +33,22 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
+  background-color: ivory;
+}
+
+.ivory{
+  background-color:black;
+  color: ivory;
 }
 
 header{
-  background-color:#5F5;
+  background-color:black;
+  color: ivory;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .app-name{
-  color: white;
   font-weight: 200;
   font-family: 'Work Sans', sans-serif;
   text-align: left;
@@ -63,4 +69,18 @@ header{
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 2%;
+}
+
+.searchbar{
+  margin: 3%;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.infomsg{
+  margin: auto;
+  width: fit-content;
+  padding: 0.5%;
+  font-size: smaller;
+  margin-top: 2%;
 }
