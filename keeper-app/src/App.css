@@ -57,3 +57,10 @@ header{
     transform: rotate(360deg);
   }
 }
+
+.notes{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 2%;
+}
