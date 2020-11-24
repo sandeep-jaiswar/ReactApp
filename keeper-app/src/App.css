@@ -37,22 +37,23 @@ footer{
 }
 
 .ivory{
-  background-color:black;
-  color: ivory;
+  background-color:ivory;
+  color: Black;
 }
 
 header{
-  background-color:black;
-  color: ivory;
+  background-color:ivory;
+  color: black;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  
 }
 
 .app-name{
-  font-weight: 200;
-  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
   text-align: left;
   font-size: larger;
+  font-family: sans-serif;
 }
 
 @keyframes App-logo-spin {
